@@ -29,15 +29,15 @@ vi index.html
   <head>
     <title>XSSI</title>
   </head>
-<body>
+  <body>
     <script>
-        function a(s)
-        {
+      function a(s)
+      {
         alert(JSON.stringify(s));
-        }
+      }
     </script>
-    <script src="http://localhost:3000/api/user?callback=a"></script>
-</body>
+    <script src="http://localhost:3000/api/user"></script>
+  </body>
 </html>
 ```
 
