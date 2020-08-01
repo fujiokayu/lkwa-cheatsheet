@@ -1,5 +1,7 @@
 # lkwa-cheatsheet
 
+Thanks [LKWA](https://github.com/weev3/LKWA).
+
 ## 0x01 – Blind RCE
 
 try `sleep 5`
