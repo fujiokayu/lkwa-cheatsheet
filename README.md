@@ -49,4 +49,6 @@ deploy: `python3 -m http.server 3001`
 
 access `http://localhost:3001/index.html` from browser.
 
+<img src="https://github.com/fujiokayu/lkwa-cheatsheet/blob/master/evidence/0x02.png" width="200">
+
 ## 0x03 – PHP Object Injection
