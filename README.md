@@ -67,3 +67,10 @@ change request parameter input as follow:
 O%3A7%3A%22Object1%22%3A2%3A%7Bs%3A5%3A%22guess%22%3BN%3Bs%3A10%3A%22secretCode%22%3BR%3A2%3B%7D%0D%0A
 
 ## 0x06 – PHAR Deserialization
+
+## 0x07 – SSRF
+
+current application directory is "/var/www/html".  
+so let's try "http://localhost:3000/images/lkwa.png" to understand this api.  
+  
+this api also gets system files like "/etc/passwd".
